@@ -11,7 +11,7 @@ Driver for HX711 24-bit ADC for weigh scales.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/hx711^1.0.0
+idf.py add-dependency esp-idf-lib/hx711^1.0.0
 ```
 
 ## Support
