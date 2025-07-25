@@ -25,4 +25,4 @@ issues: https://github.com/esp-idf-lib/hx711/issues
 discussion: https://github.com/esp-idf-lib/core/discussions
 files:
   exclude:
-    - docs
+    - docs/**/*
