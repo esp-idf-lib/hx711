@@ -95,7 +95,8 @@ esp_err_t hx711_init(hx711_t *dev)
 {
     CHECK_ARG(dev);
 
-    gpio_config_t conf = {
+    gpio_config_t conf =
+    {
         .pin_bit_mask = BIT64(dev->dout),
         .mode = GPIO_MODE_INPUT,
         .pull_up_en = 0,

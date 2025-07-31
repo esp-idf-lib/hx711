@@ -50,7 +50,8 @@ extern "C" {
 /**
  * Gain/channel
  */
-typedef enum {
+typedef enum
+{
     HX711_GAIN_A_128 = 0, //!< Channel A, gain factor 128
     HX711_GAIN_B_32,      //!< Channel B, gain factor 32
     HX711_GAIN_A_64       //!< Channel A, gain factor 64

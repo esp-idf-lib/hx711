@@ -8,7 +8,8 @@ static const char *TAG = "hx711-example";
 
 void test(void *pvParameters)
 {
-    hx711_t dev = {
+    hx711_t dev =
+    {
         .dout = CONFIG_EXAMPLE_DOUT_GPIO,
         .pd_sck = CONFIG_EXAMPLE_PD_SCK_GPIO,
         .gain = HX711_GAIN_A_64
