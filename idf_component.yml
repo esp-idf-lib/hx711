@@ -1,5 +1,5 @@
 ---
-version: 1.0.7
+version: 1.1.0
 description: Driver for HX711 24-bit ADC for weigh scales
 license: BSD-3
 targets:
