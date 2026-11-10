@@ -10,8 +10,8 @@ Connect `PD/SCK` and `DOUT` pins to the following GPIOs:
 
 | Name | Description | Defaults |
 |------|-------------|----------|
-| `CONFIG_EXAMPLE_PD_SCK_GPIO` | GPIO number for `PD/SCK` pin | "4" for `esp8266` and `esp32c3`, "18" for `esp32`, `esp32s2`, and `esp32s3` |
-| `CONFIG_EXAMPLE_DOUT_GPIO` | GPIO number for `DOUT` pin | "5" for `esp8266` and `esp32c3`, "19" for `esp32`, `esp32s2`, and `esp32s3` |
+| `CONFIG_EXAMPLE_PD_SCK_GPIO` | GPIO number for `PD/SCK` pin | "4" for `esp32c3`, "18" for `esp32`, `esp32s2`, and `esp32s3` |
+| `CONFIG_EXAMPLE_DOUT_GPIO` | GPIO number for `DOUT` pin | "5" for `esp32c3`, "19" for `esp32`, `esp32s2`, and `esp32s3` |
 
 ## Notes
 
